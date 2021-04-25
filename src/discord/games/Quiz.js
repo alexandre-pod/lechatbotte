@@ -198,7 +198,7 @@ function getQuestion(themeIndex, randomNumber) {
     }
     let indexSymbolNextQuestion = index;
 
-    response = themeDB.substr(
+    let response = themeDB.substr(
         indexSymbolResponse + 3,
         indexSymbolNextQuestion - indexSymbolResponse - 3
     );
